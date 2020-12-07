@@ -2,7 +2,7 @@
 
 cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null
 
-if ! command -v pyenv &> /dev/null; then
+if [ -v $(pyenv &> /dev/null) ]; then
   echo "please install pyenv ..."
   echo "https://github.com/pyenv/pyenv-installer"
   echo "example:"
@@ -36,4 +36,5 @@ pipenv install --dev --deploy --system
 pyenv rehash
 
 echo "precommit install ..."
-pre-commit install
+#pre-commit install
+
