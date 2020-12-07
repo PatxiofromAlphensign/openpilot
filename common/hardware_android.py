@@ -4,12 +4,12 @@ import os
 import re
 import struct
 import subprocess
-
-from cereal import log
+import cereal 
+#from cereal import log
 from common.hardware_base import HardwareBase
 
-NetworkType = log.ThermalData.NetworkType
-NetworkStrength = log.ThermalData.NetworkStrength
+#NetworkType = log.ThermalData.NetworkType
+#NetworkStrength = log.ThermalData.NetworkStrength
 
 
 def service_call(call):

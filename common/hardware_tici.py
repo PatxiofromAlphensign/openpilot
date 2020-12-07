@@ -1,12 +1,12 @@
 import serial
 
 from common.hardware_base import HardwareBase
-from cereal import log
+#from cereal import log
 import subprocess
 
 
-NetworkType = log.ThermalData.NetworkType
-NetworkStrength = log.ThermalData.NetworkStrength
+#NetworkType = log.ThermalData.NetworkType
+#NetworkStrength = log.ThermalData.NetworkStrength
 
 
 def run_at_command(cmd, timeout=0.1):

@@ -2,7 +2,7 @@ import os
 import random
 from typing import cast
 
-from cereal import log
+#from cereal import log
 from common.hardware_android import Android
 from common.hardware_tici import Tici
 from common.hardware_base import HardwareBase
@@ -13,8 +13,8 @@ PC = not (EON or TICI)
 ANDROID = EON
 
 
-NetworkType = log.ThermalData.NetworkType
-NetworkStrength = log.ThermalData.NetworkStrength
+#NetworkType = log.ThermalData.NetworkType
+#NetworkStrength = log.ThermalData.NetworkStrength
 
 
 class Pc(HardwareBase):
